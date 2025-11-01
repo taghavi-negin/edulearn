@@ -1,5 +1,151 @@
 body {
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
+
+}
+.header{
+    width: calc(50% - 20px);
+    height: 500px;
+    margin-top: 60px;
+    padding-left: 20px;
+    float: left;
+}
+
+.header h1{
+    font-size: 60px;
+}
+.image{
+    width: 50%;
+    float: right;
+    height: 300px;
+    text-align: center;
+    margin-top: 60px;
+    height: 500;
     
 }
+.img{
+    border-radius: 5%;
+    width: 500px;
+    height: 450px;
+}
+
+.b_con{
+    display: flex;                  /* enable flex layout */
+    justify-content: space-between; /* equal space between items */
+    align-items: center;            /* vertically center if needed */
+    width: 70%; 
+    height: 70px;
+
+}
+
+.div_b1{
+    width: 150px;
+    float: left ;
+    margin-top: 20px;
+    height: 40px;
+    text-align: center;
+
+
+    text-align: center;
+    flex: 1;                        /* make all boxes same width */
+    margin: 0 10px;                     /* optional spacing between boxes */
+
+
+}
+
+.div_b2{
+    width: 150px;
+    float: right;
+    margin-right: 55%;
+    margin-top: 20px;
+    height: 40px;
+    text-align: center;
+
+    
+    text-align: center;
+    flex: 1;                        /* make all boxes same width */
+    margin: 0 10px; 
+}
+
+.b1{
+    text-align: center;
+    height: 40px;
+    width: 150px;
+    color: white;
+    background-color: rgb(102, 0, 255);
+    border-radius: 10px;
+    border: transparent;
+    
+}
+
+.b1:hover{
+    color: black;
+    background-color: transparent;
+    border: solid 1px rgba(30, 21, 24, 0.575);
+}
+
+.b2{
+    text-align: center;
+    height: 40px;
+    width: 150px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: solid 1px rgba(30, 21, 24, 0.575) ;
+   
+}
+
+.b2:hover .b2text{
+    color: white;
+    
+}
+
+.b2:hover{
+    background-color: rgb(102, 0, 255);
+}
+
+.b2img{
+    width: 18px;
+    height: 15px;
+    text-align: center;
+    margin-right: 0px;
+    vertical-align: middle;
+    margin-bottom: 3px;
+
+}
+
+.b2text{
+    align-items:center;
+    color: #000000;
+}
+
+
+.container{
+  display: flex;                  /* enable flex layout */
+  justify-content: space-between; /* equal space between items */
+  align-items: center;            /* vertically center if needed */
+  width: 70%; 
+  height: 100px;
+}
+
+.box {
+
+    text-align: center;
+    flex: 1;                        /* make all boxes same width */
+    margin: 0 10px;                     /* optional spacing between boxes */
+    margin-top: 20px;
+    height: 70px;
+  }
+
+  .number{
+    color: rgb(102, 0, 255);
+    font-size: 37px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .number_text{
+    margin-top: 1px;
+    font-size: 15px;
+    color: rgba(48, 43, 43, 0.648);
+
+  }
