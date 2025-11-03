@@ -66,18 +66,18 @@ body {
     
     text-align: center;
     flex: 1;                        /* make all boxes same width */
-    margin: 0 10px; 
+    margin: 10px; 
 }
 
 .b1{
     text-align: center;
     height: 40px;
-    width: 150px;
+    width:150%;
     color: white;
     background-color: rgb(102, 0, 255);
     border-radius: 10px;
     border: transparent;
-    
+    margin: 5px;
 }
 
 .b1:hover{
@@ -98,7 +98,7 @@ body {
 
 .b2:hover .b2text{
     color: white;
-    
+    margin: 5px;
 }
 
 .b2:hover{
